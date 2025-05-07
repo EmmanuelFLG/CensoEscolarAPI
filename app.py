@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import sqlite3
 
 app = Flask(__name__)
@@ -10,10 +10,10 @@ def conectar_banco():
     return sqlite3.connect(CAMINHO_BANCO)
 
 
-def carregar_dados():
+def carregar_dados(limit=20, offset=0):
     conn = conectar_banco()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM tb_instituicao")
+    cursor.execute("SELECT * FROM tb_instituicao LIMIT ? OFFSET ?",(limit, offset))
     dados = cursor.fetchall()
     conn.close()
     return dados
@@ -36,9 +36,10 @@ def remover_instituicao_db(co_instituicao):
     conn.close()
 
 @app.route('/instituicoesensino', methods=['GET'])
-def listar_instituicoes():
+def listar_instituicoes():  
     dados = carregar_dados()
     return jsonify(dados), 200  
+    
 
 @app.route('/instituicoesensino/<co_instituicao>', methods=['GET'])
 def obter_instituicao(co_instituicao):
