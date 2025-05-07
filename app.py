@@ -1,39 +1,59 @@
-from flask import Flask, json, jsonify
+from flask import Flask, jsonify
+import sqlite3
 
 app = Flask(__name__)
 
-CAMINHO_JSON = 'escolas.json'
+CAMINHO_BANCO = 'censoescolar.db'
+
+
+def conectar_banco():
+    return sqlite3.connect(CAMINHO_BANCO)
+
 
 def carregar_dados():
-    with open(CAMINHO_JSON, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    conn = conectar_banco()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM tb_instituicao")
+    dados = cursor.fetchall()
+    conn.close()
+    return dados
 
-def salvar_dados(dados):
-    with open(CAMINHO_JSON, 'w', encoding='utf-8') as f:
-        json.dump(dados, f, ensure_ascii=False, indent=4)
+
+def obter_instituicao_db(co_instituicao):
+    conn = conectar_banco()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM tb_instituicao WHERE co_entidade = ?", (co_instituicao,))
+    instituicao = cursor.fetchone()
+    conn.close()
+    return instituicao
+
+
+def remover_instituicao_db(co_instituicao):
+    conn = conectar_banco()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM tb_instituicao WHERE co_entidade = ?", (co_instituicao,))
+    conn.commit()
+    conn.close()
 
 @app.route('/instituicoesensino', methods=['GET'])
 def listar_instituicoes():
     dados = carregar_dados()
-    return jsonify(dados), 200
+    return jsonify(dados), 200  
 
 @app.route('/instituicoesensino/<co_instituicao>', methods=['GET'])
 def obter_instituicao(co_instituicao):
-    dados = carregar_dados()
-    for inst in dados:
-        if inst['co_instituicao'] == co_instituicao:
-            return jsonify(inst), 200
+    instituicao = obter_instituicao_db(co_instituicao)
+    if instituicao:
+        return jsonify(instituicao), 200  
     return jsonify({'erro': 'Instituição não encontrada'}), 404
 
 @app.route('/instituicoesensino/<co_instituicao>', methods=['DELETE'])
 def remover_instituicao(co_instituicao):
-    dados = carregar_dados()
-    nova_lista = [inst for inst in dados if inst['co_instituicao'] != co_instituicao]
-
-    if len(dados) == len(nova_lista):
+    instituicao = obter_instituicao_db(co_instituicao)
+    if not instituicao:
         return jsonify({'erro': 'Instituição não encontrada'}), 404
-
-    salvar_dados(nova_lista)
+    
+    remover_instituicao_db(co_instituicao)
     return jsonify({'mensagem': 'Instituição removida com sucesso'}), 200
 
 if __name__ == '__main__':
