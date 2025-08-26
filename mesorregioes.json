@@ -1,0 +1,824 @@
+[
+  {
+    "codMesorregiao":1101,
+    "mesorregiao":"Madeira-Guaporé",
+    "codUF":11,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1102,
+    "mesorregiao":"Leste Rondoniense",
+    "codUF":11,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1201,
+    "mesorregiao":"Vale do Juruá",
+    "codUF":12,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1202,
+    "mesorregiao":"Vale do Acre",
+    "codUF":12,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1301,
+    "mesorregiao":"Norte Amazonense",
+    "codUF":13,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1302,
+    "mesorregiao":"Sudoeste Amazonense",
+    "codUF":13,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1303,
+    "mesorregiao":"Centro Amazonense",
+    "codUF":13,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1304,
+    "mesorregiao":"Sul Amazonense",
+    "codUF":13,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1401,
+    "mesorregiao":"Norte de Roraima",
+    "codUF":14,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1402,
+    "mesorregiao":"Sul de Roraima",
+    "codUF":14,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1501,
+    "mesorregiao":"Baixo Amazonas",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1502,
+    "mesorregiao":"Marajó",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1503,
+    "mesorregiao":"Metropolitana de Belém",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1504,
+    "mesorregiao":"Nordeste Paraense",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1505,
+    "mesorregiao":"Sudoeste Paraense",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1506,
+    "mesorregiao":"Sudeste Paraense",
+    "codUF":15,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1601,
+    "mesorregiao":"Norte do Amapá",
+    "codUF":16,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1602,
+    "mesorregiao":"Sul do Amapá",
+    "codUF":16,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1701,
+    "mesorregiao":"Ocidental do Tocantins",
+    "codUF":17,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":1702,
+    "mesorregiao":"Oriental do Tocantins",
+    "codUF":17,
+    "regiao":"Norte"
+  },
+  {
+    "codMesorregiao":2101,
+    "mesorregiao":"Norte Maranhense",
+    "codUF":21,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2102,
+    "mesorregiao":"Oeste Maranhense",
+    "codUF":21,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2103,
+    "mesorregiao":"Centro Maranhense",
+    "codUF":21,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2104,
+    "mesorregiao":"Leste Maranhense",
+    "codUF":21,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2105,
+    "mesorregiao":"Sul Maranhense",
+    "codUF":21,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2201,
+    "mesorregiao":"Norte Piauiense",
+    "codUF":22,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2202,
+    "mesorregiao":"Centro-Norte Piauiense",
+    "codUF":22,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2203,
+    "mesorregiao":"Sudoeste Piauiense",
+    "codUF":22,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2204,
+    "mesorregiao":"Sudeste Piauiense",
+    "codUF":22,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2301,
+    "mesorregiao":"Noroeste Cearense",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2302,
+    "mesorregiao":"Norte Cearense",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2303,
+    "mesorregiao":"Metropolitana de Fortaleza",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2304,
+    "mesorregiao":"Sertões Cearenses",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2305,
+    "mesorregiao":"Jaguaribe",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2306,
+    "mesorregiao":"Centro-Sul Cearense",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2307,
+    "mesorregiao":"Sul Cearense",
+    "codUF":23,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2401,
+    "mesorregiao":"Oeste Potiguar",
+    "codUF":24,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2402,
+    "mesorregiao":"Central Potiguar",
+    "codUF":24,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2403,
+    "mesorregiao":"Agreste Potiguar",
+    "codUF":24,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2404,
+    "mesorregiao":"Leste Potiguar",
+    "codUF":24,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2501,
+    "mesorregiao":"Sertão Paraibano",
+    "codUF":25,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2502,
+    "mesorregiao":"Borborema",
+    "codUF":25,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2503,
+    "mesorregiao":"Agreste Paraibano",
+    "codUF":25,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2504,
+    "mesorregiao":"Mata Paraibana",
+    "codUF":25,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2601,
+    "mesorregiao":"Sertão Pernambucano",
+    "codUF":26,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2602,
+    "mesorregiao":"São Francisco Pernambucano",
+    "codUF":26,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2603,
+    "mesorregiao":"Agreste Pernambucano",
+    "codUF":26,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2604,
+    "mesorregiao":"Mata Pernambucana",
+    "codUF":26,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2605,
+    "mesorregiao":"Metropolitana de Recife",
+    "codUF":26,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2701,
+    "mesorregiao":"Sertão Alagoano",
+    "codUF":27,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2702,
+    "mesorregiao":"Agreste Alagoano",
+    "codUF":27,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2703,
+    "mesorregiao":"Leste Alagoano",
+    "codUF":27,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2801,
+    "mesorregiao":"Sertão Sergipano",
+    "codUF":28,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2802,
+    "mesorregiao":"Agreste Sergipano",
+    "codUF":28,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2803,
+    "mesorregiao":"Leste Sergipano",
+    "codUF":28,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2901,
+    "mesorregiao":"Extremo Oeste Baiano",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2902,
+    "mesorregiao":"Vale São-Franciscano da Bahia",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2903,
+    "mesorregiao":"Centro Norte Baiano",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2904,
+    "mesorregiao":"Nordeste Baiano",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2905,
+    "mesorregiao":"Metropolitana de Salvador",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2906,
+    "mesorregiao":"Centro Sul Baiano",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":2907,
+    "mesorregiao":"Sul Baiano",
+    "codUF":29,
+    "regiao":"Nordeste"
+  },
+  {
+    "codMesorregiao":3101,
+    "mesorregiao":"Noroeste de Minas",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3102,
+    "mesorregiao":"Norte de Minas",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3103,
+    "mesorregiao":"Jequitinhonha",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3104,
+    "mesorregiao":"Vale do Mucuri",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3105,
+    "mesorregiao":"Triângulo Mineiro\/Alto Paranaíba",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3106,
+    "mesorregiao":"Central Mineira",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3107,
+    "mesorregiao":"Metropolitana de Belo Horizonte",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3108,
+    "mesorregiao":"Vale do Rio Doce",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3109,
+    "mesorregiao":"Oeste de Minas",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3110,
+    "mesorregiao":"Sul\/Sudoeste de Minas",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3111,
+    "mesorregiao":"Campo das Vertentes",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3112,
+    "mesorregiao":"Zona da Mata",
+    "codUF":31,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3201,
+    "mesorregiao":"Noroeste Espírito-santense",
+    "codUF":32,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3202,
+    "mesorregiao":"Litoral Norte Espírito-santense",
+    "codUF":32,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3203,
+    "mesorregiao":"Central Espírito-santense",
+    "codUF":32,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3204,
+    "mesorregiao":"Sul Espírito-santense",
+    "codUF":32,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3301,
+    "mesorregiao":"Noroeste Fluminense",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3302,
+    "mesorregiao":"Norte Fluminense",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3303,
+    "mesorregiao":"Centro Fluminense",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3304,
+    "mesorregiao":"Baixadas",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3305,
+    "mesorregiao":"Sul Fluminense",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3306,
+    "mesorregiao":"Metropolitana do Rio de Janeiro",
+    "codUF":33,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3501,
+    "mesorregiao":"São José do Rio Preto",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3502,
+    "mesorregiao":"Ribeirão Preto",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3503,
+    "mesorregiao":"Araçatuba",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3504,
+    "mesorregiao":"Bauru",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3505,
+    "mesorregiao":"Araraquara",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3506,
+    "mesorregiao":"Piracicaba",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3507,
+    "mesorregiao":"Campinas",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3508,
+    "mesorregiao":"Presidente Prudente",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3509,
+    "mesorregiao":"Marília",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3510,
+    "mesorregiao":"Assis",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3511,
+    "mesorregiao":"Itapetininga",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3512,
+    "mesorregiao":"Macro Metropolitana Paulista",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3513,
+    "mesorregiao":"Vale do Paraíba Paulista",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3514,
+    "mesorregiao":"Litoral Sul Paulista",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":3515,
+    "mesorregiao":"Metropolitana de São Paulo",
+    "codUF":35,
+    "regiao":"Sudeste"
+  },
+  {
+    "codMesorregiao":4101,
+    "mesorregiao":"Noroeste Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4102,
+    "mesorregiao":"Centro Ocidental Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4103,
+    "mesorregiao":"Norte Central Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4104,
+    "mesorregiao":"Norte Pioneiro Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4105,
+    "mesorregiao":"Centro Oriental Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4106,
+    "mesorregiao":"Oeste Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4107,
+    "mesorregiao":"Sudoeste Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4108,
+    "mesorregiao":"Centro-Sul Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4109,
+    "mesorregiao":"Sudeste Paranaense",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4110,
+    "mesorregiao":"Metropolitana de Curitiba",
+    "codUF":41,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4201,
+    "mesorregiao":"Oeste Catarinense",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4202,
+    "mesorregiao":"Norte Catarinense",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4203,
+    "mesorregiao":"Serrana",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4204,
+    "mesorregiao":"Vale do Itajaí",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4205,
+    "mesorregiao":"Grande Florianópolis",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4206,
+    "mesorregiao":"Sul Catarinense",
+    "codUF":42,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4301,
+    "mesorregiao":"Noroeste Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4302,
+    "mesorregiao":"Nordeste Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4303,
+    "mesorregiao":"Centro Ocidental Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4304,
+    "mesorregiao":"Centro Oriental Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4305,
+    "mesorregiao":"Metropolitana de Porto Alegre",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4306,
+    "mesorregiao":"Sudoeste Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":4307,
+    "mesorregiao":"Sudeste Rio-grandense",
+    "codUF":43,
+    "regiao":"Sul"
+  },
+  {
+    "codMesorregiao":5001,
+    "mesorregiao":"Pantanais Sul Mato-grossense",
+    "codUF":50,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5002,
+    "mesorregiao":"Centro Norte de Mato Grosso do Sul",
+    "codUF":50,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5003,
+    "mesorregiao":"Leste de Mato Grosso do Sul",
+    "codUF":50,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5004,
+    "mesorregiao":"Sudoeste de Mato Grosso do Sul",
+    "codUF":50,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5101,
+    "mesorregiao":"Norte Mato-grossense",
+    "codUF":51,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5102,
+    "mesorregiao":"Nordeste Mato-grossense",
+    "codUF":51,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5103,
+    "mesorregiao":"Sudoeste Mato-grossense",
+    "codUF":51,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5104,
+    "mesorregiao":"Centro-Sul Mato-grossense",
+    "codUF":51,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5105,
+    "mesorregiao":"Sudeste Mato-grossense",
+    "codUF":51,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5201,
+    "mesorregiao":"Noroeste Goiano",
+    "codUF":52,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5202,
+    "mesorregiao":"Norte Goiano",
+    "codUF":52,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5203,
+    "mesorregiao":"Centro Goiano",
+    "codUF":52,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5204,
+    "mesorregiao":"Leste Goiano",
+    "codUF":52,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5205,
+    "mesorregiao":"Sul Goiano",
+    "codUF":52,
+    "regiao":"Centro-Oeste"
+  },
+  {
+    "codMesorregiao":5301,
+    "mesorregiao":"Distrito Federal",
+    "codUF":53,
+    "regiao":"Centro-Oeste"
+  }
+]
